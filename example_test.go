@@ -2,7 +2,7 @@
 package goncurses_test
 
 import (
-	"code.google.com/p/goncurses"
+	"github.com/gbin/goncurses"
 	"fmt"
 	"os"
 )

@@ -2,7 +2,7 @@
 package main
 
 import (
-	gc "code.google.com/p/goncurses"
+	gc "github.com/gbin/goncurses"
 
 	"log"
 	"math/rand"

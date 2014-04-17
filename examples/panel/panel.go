@@ -6,7 +6,7 @@
 /* A simmple example of how to use panels */
 package main
 
-import gc "code.google.com/p/goncurses"
+import gc "github.com/gbin/goncurses"
 
 func main() {
 	stdscr, _ := gc.Init()

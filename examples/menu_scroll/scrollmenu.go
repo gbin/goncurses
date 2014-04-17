@@ -7,7 +7,7 @@
  * examples from TLDP */
 package main
 
-import gc "code.google.com/p/goncurses"
+import gc "github.com/gbin/goncurses"
 
 const (
 	HEIGHT = 10
