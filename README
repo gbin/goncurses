@@ -1,6 +1,6 @@
 Installation
 ------------
-The go tool is probably the best method of installing goncurses.
+The go tool is probably the easiest way to install goncurses.
 
 For this fork with unicode support by default: go get "github.com/gbin/goncurses"
 
