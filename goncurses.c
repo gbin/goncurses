@@ -59,6 +59,8 @@ bool ncurses_is_keypad(const WINDOW *win) {
 bool ncurses_is_pad(const WINDOW *win) {
 #ifdef PDCURSES
 	return false; /* no known built-in way to test for this */
+#elif defined(__OpenBSD__)
+        return win->_flags & _ISPAD;
 #else
 	return is_pad(win);
 #endif
@@ -67,6 +69,8 @@ bool ncurses_is_pad(const WINDOW *win) {
 bool ncurses_is_subwin(const WINDOW *win) {
 #ifdef PDCURSES
 	return win->_parent != NULL;
+#elif defined(__OpenBSD__)
+        return win->_flags & _SUBWIN;
 #else
 	return is_subwin(win);
 #endif

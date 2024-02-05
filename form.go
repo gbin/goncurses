@@ -6,7 +6,8 @@
 
 package goncurses
 
-// #cgo pkg-config: form
+// #cgo linux pkg-config: form
+// #cgo openbsd || freebsd LDFLAGS: -lform
 // #include <form.h>
 import "C"
 
