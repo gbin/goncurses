@@ -4,7 +4,8 @@
 
 package goncurses
 
-// #cgo !windows pkg-config: ncurses
+// #cgo linux pkg-config: ncurses
+// #cgo openbsd || freebsd LDFLAGS: -lncurses
 // #include <curses.h>
 import "C"
 
