@@ -8,6 +8,8 @@ package goncurses
 // #cgo linux pkg-config: ncursesw
 // #cgo windows CFLAGS: -DNCURSES_MOUSE_VERSION
 // #cgo windows LDFLAGS: -lpdcurses
+// #cgo darwin LDFLAGS: -lncurses
+
 // #include <curses.h>
 // #include <locale.h>
 // #include "goncurses.h"

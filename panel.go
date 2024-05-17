@@ -6,6 +6,7 @@ package goncurses
 
 // #cgo linux pkg-config: panel
 // #cgo openbsd || freebsd LDFLAGS: -lpanel
+// #cgo darwin LDFLAGS: -lpanel
 // #include <panel.h>
 // #include <curses.h>
 import "C"
