@@ -9,6 +9,7 @@ package goncurses
 /*
 #cgo linux pkg-config: menu
 #cgo openbsd || freebsd LDFLAGS: -lmenu
+#cgo darwin LDFLAGS: -lmenu
 #include <menu.h>
 #include <stdlib.h>
 
