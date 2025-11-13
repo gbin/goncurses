@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build !windows
 // +build !windows
 
 package goncurses
@@ -14,8 +15,8 @@ const (
 	ACS_LANTERN
 	ACS_LRCORNER
 	ACS_URCORNER
-	ACS_LLCORNER
 	ACS_ULCORNER
+	ACS_LLCORNER
 	ACS_PLUS
 	ACS_S1
 	ACS_S3
