@@ -4,7 +4,7 @@
 
 package goncurses
 
-// #cgo linux pkg-config: panel
+// #cgo linux pkg-config: panelw
 // #cgo openbsd || freebsd LDFLAGS: -lpanel
 // #cgo darwin LDFLAGS: -lpanel
 // #include <panel.h>

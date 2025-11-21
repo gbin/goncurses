@@ -6,7 +6,7 @@
 
 package goncurses
 
-// #cgo linux pkg-config: form
+// #cgo linux pkg-config: formw
 // #cgo openbsd || freebsd LDFLAGS: -lform
 // #cgo darwin LDFLAGS: -lform
 // #include <form.h>
