@@ -7,7 +7,7 @@
 package goncurses
 
 /*
-#cgo linux pkg-config: menu
+#cgo linux pkg-config: menuw
 #cgo openbsd || freebsd LDFLAGS: -lmenu
 #cgo darwin LDFLAGS: -lmenu
 #include <menu.h>

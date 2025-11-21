@@ -4,7 +4,7 @@
 
 package goncurses
 
-// #cgo linux pkg-config: ncurses
+// #cgo linux pkg-config: ncursesw
 // #cgo openbsd || freebsd LDFLAGS: -lncurses
 // #cgo darwin LDFLAGS: -lncurses
 // #include <curses.h>
